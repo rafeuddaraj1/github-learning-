@@ -40,3 +40,7 @@ toDo.prototype = Object.create(any.prototype)
 let to = new toDo()
 
 to.common()
+
+function log(){
+    return 'i am console.log() method and keywords'
+}
