@@ -11,8 +11,12 @@ class Person{
         city: 'dhaka'
         country:' bangladesh'
     }
+    sqr(x){
+        return x*x
+    }
 }
 let str = '{"name":"Rafe Uddaraj", "email": "rafeuddaraj2@gmail.com"}'
 console.log(Person.create(str));
 let person = new Person()
 console.log(person.address());
+console.log(new Person().sqr(10));
