@@ -13,6 +13,9 @@ class Person{
     sqr(x){
         return x*x
     }
+    qub(a){
+        return a*a*a
+    }
 }
 let str = '{"name":"Rafe Uddaraj", "email": "rafeuddaraj2@gmail.com"}'
 console.log(Person.create(str));
