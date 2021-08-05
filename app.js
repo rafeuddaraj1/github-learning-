@@ -19,3 +19,7 @@ console.log(Person.create(str));
 let person = new Person()
 console.log(person.address());
 console.log(new Person().sqr(10));
+
+function area (x,y,z){
+    return x*y*z
+}
